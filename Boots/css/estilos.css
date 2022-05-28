@@ -1,0 +1,40 @@
+@font-face{
+	font-family: "frances";
+	src: url("fuente/frances.ttf");
+}
+
+.h1, h2, h3, h4, h5, h6{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-social_item{
+    width: 35px;
+    height: 35px;
+    display:block;
+    text-align: center; 
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.nav-social_item:first-child{
+    background: #dfc263;
+}
+
+.nav-social_item:nth-child(2){
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    
+}
+
+.nav-social_item:nth-child(3){
+    background: #1da1f2;
+}
+
+
+.nav-social_item i{
+    color: white;
+}
